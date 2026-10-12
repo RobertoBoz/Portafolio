@@ -78,3 +78,9 @@ footer{max-width:1360px;margin:0 auto;padding-block:32px 40px;border-top:14px so
 }
 @media (max-width:480px){.row{grid-template-columns:minmax(0,1fr);gap:2px}.row .y{padding-top:0}.top .mark{display:none}.top{justify-content:center}}
 @media (prefers-reduced-motion:reduce){.flap{animation:none}.scene .g{transition:none}.rise{animation:none;opacity:1;transform:none}body,.row,.btn,.bubble{transition:none}html{scroll-behavior:auto}}
+
+/* Botones del inicio: "Ver apps" y "Descargar CV" */
+.acciones{display:flex;flex-wrap:wrap;gap:12px}
+.btn-alt{background:none;color:var(--fg);box-shadow:inset 0 0 0 2px var(--line)}
+.btn-alt:hover{background:var(--fg);color:var(--bg);box-shadow:none}
+.btn .peq{font-size:.72em;font-weight:600;letter-spacing:.06em;opacity:.75}
