@@ -80,7 +80,7 @@ Extras sin efecto visual:
 **Verificación** (con navegador headless):
 
 1. Antes del cambio: capturas de cada sección (`inicio`, `trabajos`, `como-trabajo`, `sobre-mi`, `contacto`) a 1440×900 y 390×844, con `window.__manual = true` y `render(t)` fijo.
-2. Después: las mismas capturas. Criterio: **0 píxeles distintos**.
+2. Después: las mismas capturas. Criterio: **ninguna diferencia visible**. Dos capturas de la página original ya difieren por suavizado (1–2 niveles de color en los bordes de los edificios del fondo), así que se mide contra ese ruido.
 3. Funcional: los 13 chips cambian de pose; el globo escribe la frase; el scroll cambia `data-s` y la pose; "Copiar" funciona; sin errores en consola.
 4. Fallo simulado: bloquear `img/poses/walk.webp` y confirmar que su chip queda deshabilitado y lo demás funciona.
 5. Comprobar que la página carga también desde `file://`.
