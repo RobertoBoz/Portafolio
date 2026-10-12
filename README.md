@@ -2,7 +2,7 @@
 
 **Tech Lead Mobile · Flutter**
 
-### [👉 Ver el portafolio en vivo](https://robertoboz.github.io/Portafolio/)
+### [👉 Ver el portafolio en vivo](https://robertoboz.github.io/Portafolio/)  ·  [📄 Descargar CV (PDF)](cv/Roberto-Bolanos-Zepeda-CV.pdf)
 
 [![Captura del portafolio](docs/captura.png)](https://robertoboz.github.io/Portafolio/)
 
@@ -28,6 +28,7 @@ js/cara.js          boca y parpadeo del personaje
 js/avatar.js        dibujo en el canvas, transiciones y globo de diálogo
 js/pagina.js        scroll entre secciones, botones y copiar correo
 img/poses/          una imagen .webp por pose
+cv/                 CV descargable en PDF
 docs/               captura y documentos de diseño
 ```
 
@@ -45,3 +46,4 @@ Los cambios que subas a la rama `main` se publican solos en GitHub Pages en uno 
 - Correo: [robertobolanoszepeda@gmail.com](mailto:robertobolanoszepeda@gmail.com)
 - LinkedIn: [Roberto Bolaños Zepeda](https://www.linkedin.com/in/roberto-bola%C3%B1os-zepeda-63614519b/)
 - GitHub: [@RobertoBoz](https://github.com/RobertoBoz)
+- CV: [Descargar PDF](cv/Roberto-Bolanos-Zepeda-CV.pdf)
